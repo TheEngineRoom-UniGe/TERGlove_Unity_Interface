@@ -20,7 +20,7 @@ can read the recordings of the imus and join them in a single sto file that is c
 
 ========================
 
-testRPY.py:
+calibration.py:
 ------------
 reads the ROS messages from the glove driver, manipulates them to calibrate the initial state of the hand and can remove the rotation of the back of the hand from the fingers. The messages are then remapped to the /Parent and /Child topics to communicate with the Unity application. Each /Child message has the link name in the field base_link
 
